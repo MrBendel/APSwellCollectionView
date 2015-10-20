@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A798675D1BD68D2400E5BC81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798675C1BD68D2400E5BC81 /* AppDelegate.swift */; };
+		A798675F1BD68D2400E5BC81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798675E1BD68D2400E5BC81 /* ViewController.swift */; };
+		A79867621BD68D2400E5BC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79867601BD68D2400E5BC81 /* Main.storyboard */; };
+		A79867641BD68D2400E5BC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79867631BD68D2400E5BC81 /* Assets.xcassets */; };
+		A79867671BD68D2400E5BC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79867651BD68D2400E5BC81 /* LaunchScreen.storyboard */; };
+		A79867721BD68D2400E5BC81 /* APSwellCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79867711BD68D2400E5BC81 /* APSwellCollectionViewTests.swift */; };
+		A798677D1BD68D2400E5BC81 /* APSwellCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798677C1BD68D2400E5BC81 /* APSwellCollectionViewUITests.swift */; };
+		A798678D1BD68D5C00E5BC81 /* SwellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798678C1BD68D5C00E5BC81 /* SwellCollectionViewCell.swift */; };
+		A798678F1BD6905D00E5BC81 /* SwellCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798678E1BD6905D00E5BC81 /* SwellCollectionViewLayout.swift */; };
+		A79867911BD69D6E00E5BC81 /* SwellCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79867901BD69D6E00E5BC81 /* SwellCollectionViewController.swift */; };
+		A798679C1BD6A79700E5BC81 /* IMG_0225.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867931BD6A79700E5BC81 /* IMG_0225.jpg */; };
+		A798679D1BD6A79700E5BC81 /* IMG_0245.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867941BD6A79700E5BC81 /* IMG_0245.jpg */; };
+		A798679E1BD6A79700E5BC81 /* IMG_0310.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867951BD6A79700E5BC81 /* IMG_0310.jpg */; };
+		A798679F1BD6A79700E5BC81 /* IMG_0463.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867961BD6A79700E5BC81 /* IMG_0463.jpg */; };
+		A79867A01BD6A79700E5BC81 /* IMG_0494.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867971BD6A79700E5BC81 /* IMG_0494.jpg */; };
+		A79867A11BD6A79700E5BC81 /* IMG_0506.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867981BD6A79700E5BC81 /* IMG_0506.jpg */; };
+		A79867A21BD6A79700E5BC81 /* IMG_0572.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A79867991BD6A79700E5BC81 /* IMG_0572.jpg */; };
+		A79867A31BD6A79700E5BC81 /* IMG_0637.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A798679A1BD6A79700E5BC81 /* IMG_0637.jpg */; };
+		A79867A41BD6A79700E5BC81 /* IMG_0639.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A798679B1BD6A79700E5BC81 /* IMG_0639.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A798676E1BD68D2400E5BC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79867511BD68D2400E5BC81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79867581BD68D2400E5BC81;
+			remoteInfo = APSwellCollectionView;
+		};
+		A79867791BD68D2400E5BC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79867511BD68D2400E5BC81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79867581BD68D2400E5BC81;
+			remoteInfo = APSwellCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79867591BD68D2400E5BC81 /* APSwellCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSwellCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A798675C1BD68D2400E5BC81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A798675E1BD68D2400E5BC81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A79867611BD68D2400E5BC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79867631BD68D2400E5BC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79867661BD68D2400E5BC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A79867681BD68D2400E5BC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A798676D1BD68D2400E5BC81 /* APSwellCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APSwellCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79867711BD68D2400E5BC81 /* APSwellCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSwellCollectionViewTests.swift; sourceTree = "<group>"; };
+		A79867731BD68D2400E5BC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79867781BD68D2400E5BC81 /* APSwellCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APSwellCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A798677C1BD68D2400E5BC81 /* APSwellCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSwellCollectionViewUITests.swift; sourceTree = "<group>"; };
+		A798677E1BD68D2400E5BC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A798678C1BD68D5C00E5BC81 /* SwellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwellCollectionViewCell.swift; sourceTree = "<group>"; };
+		A798678E1BD6905D00E5BC81 /* SwellCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwellCollectionViewLayout.swift; sourceTree = "<group>"; };
+		A79867901BD69D6E00E5BC81 /* SwellCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwellCollectionViewController.swift; sourceTree = "<group>"; };
+		A79867931BD6A79700E5BC81 /* IMG_0225.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0225.jpg; sourceTree = "<group>"; };
+		A79867941BD6A79700E5BC81 /* IMG_0245.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0245.jpg; sourceTree = "<group>"; };
+		A79867951BD6A79700E5BC81 /* IMG_0310.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0310.jpg; sourceTree = "<group>"; };
+		A79867961BD6A79700E5BC81 /* IMG_0463.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0463.jpg; sourceTree = "<group>"; };
+		A79867971BD6A79700E5BC81 /* IMG_0494.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0494.jpg; sourceTree = "<group>"; };
+		A79867981BD6A79700E5BC81 /* IMG_0506.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0506.jpg; sourceTree = "<group>"; };
+		A79867991BD6A79700E5BC81 /* IMG_0572.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0572.jpg; sourceTree = "<group>"; };
+		A798679A1BD6A79700E5BC81 /* IMG_0637.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0637.jpg; sourceTree = "<group>"; };
+		A798679B1BD6A79700E5BC81 /* IMG_0639.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0639.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79867561BD68D2400E5BC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A798676A1BD68D2400E5BC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79867751BD68D2400E5BC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79867501BD68D2400E5BC81 = {
+			isa = PBXGroup;
+			children = (
+				A798675B1BD68D2400E5BC81 /* APSwellCollectionView */,
+				A79867701BD68D2400E5BC81 /* APSwellCollectionViewTests */,
+				A798677B1BD68D2400E5BC81 /* APSwellCollectionViewUITests */,
+				A798675A1BD68D2400E5BC81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A798675A1BD68D2400E5BC81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79867591BD68D2400E5BC81 /* APSwellCollectionView.app */,
+				A798676D1BD68D2400E5BC81 /* APSwellCollectionViewTests.xctest */,
+				A79867781BD68D2400E5BC81 /* APSwellCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A798675B1BD68D2400E5BC81 /* APSwellCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A79867921BD6A78600E5BC81 /* Resources */,
+				A798678B1BD68D4C00E5BC81 /* Swell CV */,
+				A798675C1BD68D2400E5BC81 /* AppDelegate.swift */,
+				A798675E1BD68D2400E5BC81 /* ViewController.swift */,
+				A79867601BD68D2400E5BC81 /* Main.storyboard */,
+				A79867631BD68D2400E5BC81 /* Assets.xcassets */,
+				A79867651BD68D2400E5BC81 /* LaunchScreen.storyboard */,
+				A79867681BD68D2400E5BC81 /* Info.plist */,
+			);
+			path = APSwellCollectionView;
+			sourceTree = "<group>";
+		};
+		A79867701BD68D2400E5BC81 /* APSwellCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79867711BD68D2400E5BC81 /* APSwellCollectionViewTests.swift */,
+				A79867731BD68D2400E5BC81 /* Info.plist */,
+			);
+			path = APSwellCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		A798677B1BD68D2400E5BC81 /* APSwellCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A798677C1BD68D2400E5BC81 /* APSwellCollectionViewUITests.swift */,
+				A798677E1BD68D2400E5BC81 /* Info.plist */,
+			);
+			path = APSwellCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		A798678B1BD68D4C00E5BC81 /* Swell CV */ = {
+			isa = PBXGroup;
+			children = (
+				A79867901BD69D6E00E5BC81 /* SwellCollectionViewController.swift */,
+				A798678E1BD6905D00E5BC81 /* SwellCollectionViewLayout.swift */,
+				A798678C1BD68D5C00E5BC81 /* SwellCollectionViewCell.swift */,
+			);
+			name = "Swell CV";
+			sourceTree = "<group>";
+		};
+		A79867921BD6A78600E5BC81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79867931BD6A79700E5BC81 /* IMG_0225.jpg */,
+				A79867941BD6A79700E5BC81 /* IMG_0245.jpg */,
+				A79867951BD6A79700E5BC81 /* IMG_0310.jpg */,
+				A79867961BD6A79700E5BC81 /* IMG_0463.jpg */,
+				A79867971BD6A79700E5BC81 /* IMG_0494.jpg */,
+				A79867981BD6A79700E5BC81 /* IMG_0506.jpg */,
+				A79867991BD6A79700E5BC81 /* IMG_0572.jpg */,
+				A798679A1BD6A79700E5BC81 /* IMG_0637.jpg */,
+				A798679B1BD6A79700E5BC81 /* IMG_0639.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79867581BD68D2400E5BC81 /* APSwellCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79867811BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionView" */;
+			buildPhases = (
+				A79867551BD68D2400E5BC81 /* Sources */,
+				A79867561BD68D2400E5BC81 /* Frameworks */,
+				A79867571BD68D2400E5BC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APSwellCollectionView;
+			productName = APSwellCollectionView;
+			productReference = A79867591BD68D2400E5BC81 /* APSwellCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A798676C1BD68D2400E5BC81 /* APSwellCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79867841BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionViewTests" */;
+			buildPhases = (
+				A79867691BD68D2400E5BC81 /* Sources */,
+				A798676A1BD68D2400E5BC81 /* Frameworks */,
+				A798676B1BD68D2400E5BC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A798676F1BD68D2400E5BC81 /* PBXTargetDependency */,
+			);
+			name = APSwellCollectionViewTests;
+			productName = APSwellCollectionViewTests;
+			productReference = A798676D1BD68D2400E5BC81 /* APSwellCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A79867771BD68D2400E5BC81 /* APSwellCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79867871BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionViewUITests" */;
+			buildPhases = (
+				A79867741BD68D2400E5BC81 /* Sources */,
+				A79867751BD68D2400E5BC81 /* Frameworks */,
+				A79867761BD68D2400E5BC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A798677A1BD68D2400E5BC81 /* PBXTargetDependency */,
+			);
+			name = APSwellCollectionViewUITests;
+			productName = APSwellCollectionViewUITests;
+			productReference = A79867781BD68D2400E5BC81 /* APSwellCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79867511BD68D2400E5BC81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Poes";
+				TargetAttributes = {
+					A79867581BD68D2400E5BC81 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A798676C1BD68D2400E5BC81 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A79867581BD68D2400E5BC81;
+					};
+					A79867771BD68D2400E5BC81 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A79867581BD68D2400E5BC81;
+					};
+				};
+			};
+			buildConfigurationList = A79867541BD68D2400E5BC81 /* Build configuration list for PBXProject "APSwellCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79867501BD68D2400E5BC81;
+			productRefGroup = A798675A1BD68D2400E5BC81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79867581BD68D2400E5BC81 /* APSwellCollectionView */,
+				A798676C1BD68D2400E5BC81 /* APSwellCollectionViewTests */,
+				A79867771BD68D2400E5BC81 /* APSwellCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79867571BD68D2400E5BC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79867A01BD6A79700E5BC81 /* IMG_0494.jpg in Resources */,
+				A79867A41BD6A79700E5BC81 /* IMG_0639.jpg in Resources */,
+				A79867A21BD6A79700E5BC81 /* IMG_0572.jpg in Resources */,
+				A798679F1BD6A79700E5BC81 /* IMG_0463.jpg in Resources */,
+				A798679C1BD6A79700E5BC81 /* IMG_0225.jpg in Resources */,
+				A798679E1BD6A79700E5BC81 /* IMG_0310.jpg in Resources */,
+				A79867A11BD6A79700E5BC81 /* IMG_0506.jpg in Resources */,
+				A798679D1BD6A79700E5BC81 /* IMG_0245.jpg in Resources */,
+				A79867671BD68D2400E5BC81 /* LaunchScreen.storyboard in Resources */,
+				A79867A31BD6A79700E5BC81 /* IMG_0637.jpg in Resources */,
+				A79867641BD68D2400E5BC81 /* Assets.xcassets in Resources */,
+				A79867621BD68D2400E5BC81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A798676B1BD68D2400E5BC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79867761BD68D2400E5BC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79867551BD68D2400E5BC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A798675F1BD68D2400E5BC81 /* ViewController.swift in Sources */,
+				A79867911BD69D6E00E5BC81 /* SwellCollectionViewController.swift in Sources */,
+				A798678D1BD68D5C00E5BC81 /* SwellCollectionViewCell.swift in Sources */,
+				A798678F1BD6905D00E5BC81 /* SwellCollectionViewLayout.swift in Sources */,
+				A798675D1BD68D2400E5BC81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79867691BD68D2400E5BC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79867721BD68D2400E5BC81 /* APSwellCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79867741BD68D2400E5BC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A798677D1BD68D2400E5BC81 /* APSwellCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A798676F1BD68D2400E5BC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79867581BD68D2400E5BC81 /* APSwellCollectionView */;
+			targetProxy = A798676E1BD68D2400E5BC81 /* PBXContainerItemProxy */;
+		};
+		A798677A1BD68D2400E5BC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79867581BD68D2400E5BC81 /* APSwellCollectionView */;
+			targetProxy = A79867791BD68D2400E5BC81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A79867601BD68D2400E5BC81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79867611BD68D2400E5BC81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A79867651BD68D2400E5BC81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79867661BD68D2400E5BC81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A798677F1BD68D2400E5BC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79867801BD68D2400E5BC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79867821BD68D2400E5BC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APSwellCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A79867831BD68D2400E5BC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APSwellCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A79867851BD68D2400E5BC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APSwellCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APSwellCollectionView.app/APSwellCollectionView";
+			};
+			name = Debug;
+		};
+		A79867861BD68D2400E5BC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APSwellCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APSwellCollectionView.app/APSwellCollectionView";
+			};
+			name = Release;
+		};
+		A79867881BD68D2400E5BC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APSwellCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APSwellCollectionView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A79867891BD68D2400E5BC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APSwellCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbendel.APSwellCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APSwellCollectionView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79867541BD68D2400E5BC81 /* Build configuration list for PBXProject "APSwellCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A798677F1BD68D2400E5BC81 /* Debug */,
+				A79867801BD68D2400E5BC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79867811BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79867821BD68D2400E5BC81 /* Debug */,
+				A79867831BD68D2400E5BC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A79867841BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79867851BD68D2400E5BC81 /* Debug */,
+				A79867861BD68D2400E5BC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A79867871BD68D2400E5BC81 /* Build configuration list for PBXNativeTarget "APSwellCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79867881BD68D2400E5BC81 /* Debug */,
+				A79867891BD68D2400E5BC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79867511BD68D2400E5BC81 /* Project object */;
+}
